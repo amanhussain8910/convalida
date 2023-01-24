@@ -11,6 +11,7 @@
     --blue: #1d88ca;
     --yellow-image: invert(63%) sepia(97%) saturate(1225%) hue-rotate(343deg) brightness(100%) contrast(95%);
     --blue-image: invert(44%) sepia(97%) saturate(451%) hue-rotate(158deg) brightness(87%) contrast(91%);
+    --black-image: invert(0%) sepia(6%) saturate(7466%) hue-rotate(340deg) brightness(97%) contrast(95%);
 }
 body {
     font-family: var(--font2);
@@ -523,3 +524,23 @@ footer:after {
     font-size: 14px;
 }
 /* end about */
+
+/* contact */
+.contact-top {
+    margin-top: 2rem;
+}
+.contact-top li a {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 0;
+    color: var(--blue);
+}
+.contact-top li a img {
+    width: 25px;
+    margin-right: 10px;
+}
+.contact-form {
+    background-color: #fff;
+    padding: 2rem;
+}
+/* end contact */
