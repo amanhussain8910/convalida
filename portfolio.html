@@ -7,6 +7,8 @@
     <title> Software Development Company | Application Development Outsourcing | Application Development Company | Custom Software Development | Web Application Development | Ecommerce Web Promotion</title>
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,37 +16,41 @@
 
 <!-- header -->
 <header>
-  <div class="container p-0">
-      <nav class="mynavbar">
-          <a href="/" class="logo"><img src="images/logo-white.png" alt="Convalida Technology"></a>
-          <ul class="navbar-menu">
-              <li><a href="/">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li class="submenu-wrap">
-                  <a href="services.html">Services <img src="images/icons/arrow-down.png" alt=""></a>
-                  <ul class="submenu">
-                      <li><a href="qlik-data-platform.html">Qlik Data Platform</a></li>
-                      <li><a href="microsoft-power-platform.html">Microsoft Power Platform</a></li>
-                      <li><a href="snowflake-datawarehouse-platform.html">Snowflake Datawarehouse Platform</a></li>
-                      <li><a href="business-analytics-solutions.html">Business Analytics Solutions</a></li>
-                      <li><a href="salesforce-cloud-crm-solutions.html">Salesforce Cloud CRM Solutions</a></li>
-                      <li><a href="mobility-and-web-solutions.html">Mobility & Web Solutions</a></li>
-                      <li><a href="digital-marketing-services.html">Digital Marketing Services</a></li>
-                      <li><a href="ecommerce-solutions.html">eCommerce Solutions</a></li>
-                      <li><a href="consulting-services.html">Consulting Services</a></li>
-                      <li><a href="erp-solutions.html">ERP Solutions</a></li>
-                      <li><a href="technical-trainings.html">Technical Trainings</a></li>
-                      <li><a href="staff-augmentation-services.html">Staff Augmentation Services</a></li>
-                      <li><a href="application-support-and-maintenance.html">Application Support and Maintenance</a></li>
-                  </ul>
-              </li>
-              <li><a href="technology.html">Technology</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="contact.html">Contacts</a></li>
-          </ul>
-          <a href="contact.html" class="btnblue">Get Quotes</a>
-      </nav>
-  </div>
+    <div class="container p-0">
+        <nav class="mynavbar">
+            <a href="/" class="logo"><img src="images/logo-white.png" alt="Convalida Technology"></a>
+            <ul class="navbar-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="submenu-wrap">
+                    <a>Offerings <img src="images/icons/arrow-down.png" alt=""></a>
+                    <ul class="submenu">
+                        <li><a href="services.html">Solutions</a></li>
+                        <li><a href="qlik-data-platform.html">Qlik Data Platform</a></li>
+                        <li><a href="microsoft-power-platform.html">Microsoft Power Platform</a></li>
+                        <li><a href="snowflake-datawarehouse-platform.html">Snowflake Datawarehouse Platform</a></li>
+                        <li><a href="business-analytics-solutions.html">Business Analytics Solutions</a></li>
+                        <li><a href="salesforce-cloud-crm-solutions.html">Salesforce Cloud CRM Solutions</a></li>
+                        <li><a href="erp-solutions.html">ERP Solutions</a></li>
+                        <li><a href="ecommerce-solutions.html">eCommerce Solutions</a></li>
+                        <li><a href="mobility-and-web-solutions.html">Mobility & Web Solutions</a></li>
+
+                        <li><a href="services.html#services">Services</a></li>
+                        <li><a href="digital-marketing-services.html">Digital Marketing Services</a></li>
+                        <li><a href="consulting-services.html">Consulting Services</a></li>
+                        <li><a href="staff-augmentation-services.html">Staff Augmentation Services</a></li>
+                        <li><a href="application-support-and-maintenance.html">Application Support and Maintenance</a></li>
+                        <li><a href="technical-trainings.html">Technical Trainings</a></li>
+                    </ul>
+                </li>
+                <li><a href="technology.html">Technology</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="career.html">Career</a></li>
+            </ul>
+            <a href="index.html#contact" class="btnblue">Contact Us</a>
+        </nav>
+    </div>
 </header>
 <!-- end header -->
 
@@ -56,8 +62,8 @@
 </div>
 <!-- end default banner -->
 
-<!-- products -->
-<div class="service-wrapper products-wrapper pad-5x bg-light">
+<!-- portfolio -->
+<div class="service-wrapper portfolio-wrapper pad-5x bg-light">
     <div class="container">
         <div class="row">
             <div class="col-md-6 mx-auto text-center">
@@ -67,103 +73,215 @@
                 </div>
             </div>
         </div>
-        <div class="row pad-5x align-items-center">
-            <div class="col-md-6">
-                <img src="images/work1.png" alt="">
+        <div class="row gy-5">
+            <div class="col-md-6" id="autofurnish">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/1.jpg);">
+                        <a href="http://www.autofurnish.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Autofurnish</div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6">
-                <h4>Convalida FoodyPOS</h4>
-                <p>A Powerful integrated Retail Business Tool bringing superior service to the retail & hospitality industry, including Restaurant Menu’s, cafeterias, catering, golf clubs, and hotels. So sit back, relax & start accepting reservations and payments directly from your website and or the Mobile app using the integrated booking button.</p>
+            <div class="col-md-6" id="metropolisgrill">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/2.jpg);">
+                        <a href="http://www.metropolisgrill.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Metropolisgrill</div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row pad-5x align-items-center">
-            <div class="col-md-6">
-                <h4>Convalida OnePlusRewards</h4>
-                <p>OnePlusRewards where Business Make a customer, not a sale!!! <br/><br/> One Stop Solution for All your Business Marketing.</p>
+            <div class="col-md-6" id="">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/3.jpg);">
+                        <a href="http://skyviewhomesgroup.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Sky View Home Group</div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6">
-                <img src="images/work2.png" alt="">
+            <div class="col-md-6" id="oneplusrewards">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/4.jpg);">
+                        <a href="http://www.oneplusrewards.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Oneplusrewards</div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row pad-5x align-items-center">
-            <div class="col-md-6">
-                <img src="images/work-placeholder.jpg" alt="">
+            <div class="col-md-6" id="">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/5.jpg);">
+                        <a href="http://corporate.autofurnish.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Corporate Autofurnish</div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6">
-                <h4>Convalida RDevCMS</h4>
-                <p>We have developed a strong platform to address the current gap in SEO though Rapid Developer Content Management Server (RdevCMS™) to save time and money. RdevCMS™ platform provides speed in development, deployment and management.</p>
+            <div class="col-md-6" id="">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/6.jpg);">
+                        <a href="http://auburnbombaygrill.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Bombay Indian Grills</div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row pad-5x align-items-center">
-            <div class="col-md-6">
-                <h4>Convalida MarketPlaceSDIM</h4>
-                <p>Convalida Technologies Sales Distribution and Inventory Management System (SDIM) provides you the power to automate & streamline the Core Sales & Distribution working of your Organization.</p>
+            <div class="col-md-6" id="accfitaxes">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/7.jpg);">
+                        <a href="http://accfitaxes.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Accfitaxes</div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6">
-                <img src="images/work-placeholder.jpg" alt="">
+            <div class="col-md-6" id="metropoliscafe">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/8.jpg);">
+                        <a href="http://metropoliscafega.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Metroplis Cafe</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/9.jpg);">
+                        <a href="http://bollywoodtacos.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Bollywood Tacos</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/10.jpg);">
+                        <a href="http://foodypos.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Foodypos</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="chattanooga">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/11.jpg);">
+                        <a href="http://www.sitarchattanooga.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Sitarchattanooga</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="knoxville">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/12.jpg);">
+                        <a href="http://www.sitarknoxville.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Sitar Knoxville</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="qatarEnergy">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/13.jpg);">
+                        <a href="https://www.qatarenergy.qa/en/Pages/Home.aspx" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Qatar Energy</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="rostan">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/14.jpg);">
+                        <a href="https://rostantechnologies.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Rostan Technologies</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="monster">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/15.jpg);">
+                        <a href="https://www.foundit.in/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Monster Jobs</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="lagozon">
+                <div class="portfolio-container">
+                    <div class="portfolio-box" style="background-image: url(../images/websites/16.jpg);">
+                        <a href="https://www.lagozon.com/" target="_blank" class="btnblue"><img src="images/icons/link.png" alt=""></a>
+                        <div class="portfolio-name">Lagozon</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<!-- end products -->
+<!-- end portfolio -->
 
 <!-- footer -->
 <footer class="pad-5x" id="contact">
-  <div class="container">
-    <div class="row footer-top">
-      <div class="col-md-4 footer-about">
-        <a href="/" class="logo"><img src="images/logo-white.png" alt=""></a>
-        <p>Convalida Technologies is a Technology, Outsourcing and Product Company. Convalida was incepted in 2012 and has been successful in delivering its IT solutions in North America & Multi Geo Locations with utmost pride in able to retain the Clients through our Quality and Timely Project Delivery.</p>
-      </div>
-      <div class="col-md-8 footer-right">
-        <div class="row footer-right-top">
-          <div class="col-md-8">
-            <ul class="footer-contact">
-              <li><a class="me-4" href="tel:+91 9810109804"><img src="images/icons/phone.png" alt=""> +91 9810109804</a></li>
-              <li><a href="mailto:sales@convalidatech.com"><img src="images/icons/mail.png" alt=""> sales@convalidatech.com</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="social-media">
-              <li><a href="https://www.linkedin.com/company/convalida-technologies" target="_blank"><img src="images/icons/linkedin.png" alt=""></a></li>
-            </ul>
+    <div class="container">
+      <div class="row footer-top">
+        <div class="col-md-3 footer-about">
+          <a href="/" class="logo"><img src="images/logo-white.png" alt=""></a>
+          <p>Convalida Technologies is a Technology, Outsourcing and Product Company. Convalida was incepted in 2012 and has been successful in delivering its IT solutions in North America & Multi Geo Locations with utmost pride in able to retain the Clients through our Quality and Timely Project Delivery.</p>
+          <div class="development-center">
+            <img src="images/idc.jpg" alt="">
+            <h4>India Development Center</h4>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="footer-address">
-              <img src="images/icons/usa.png" alt="">
-              <h4>USA - Warner Robins</h4>
-              <address>866 GA Hwy 96 Suite 102,	<br/> Warner Robins,<br/> GA  31088</address>
+        <div class="col-md-9 footer-right">
+          <div class="row footer-right-top">
+            <div class="col-md-8">
+              <ul class="footer-contact">
+                <li><a class="me-4" href="tel:+1 (778) 325 9804"><img src="images/icons/phone.png" alt=""> +1 (778) 325 9804</a></li>
+                <li><a href="mailto:sales@convalidatech.com"><img src="images/icons/mail.png" alt=""> sales@convalidatech.com</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <ul class="social-media">
+                <li><a href="https://www.linkedin.com/company/convalida-technologies" target="_blank"><img src="images/icons/linkedin.png" alt=""></a></li>
+              </ul>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="footer-address">
-              <img src="images/icons/canada.png" alt="">
-              <h4>CANADA – Vancouver (HQ)</h4>
-              <address>2729 158 St,	<br/> Unit# 107,<br/> Surrey, BC V3Z 1P4</address>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="footer-address">
+                <img src="images/icons/usa.png" alt="">
+                <h4>USA - Warner Robins</h4>
+                <h5>Convalida Technologies LLC</h5>
+                <address>866 GA Hwy 96 Suite 102,	<br/> Warner Robins,<br/> GA  31088</address>
+              </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="footer-address">
-              <img src="images/icons/india.png" alt="">
-              <h4>INDIA – New Delhi</h4>
-              <address>A73, <br/> Malviya Nagar, <br/>New Delhi 110017</address>
+            <div class="col-md-3">
+              <div class="footer-address">
+                <img src="images/icons/canada.png" alt="">
+                <h4>CANADA – Vancouver (HQ)</h4>
+                <h5>Convalida Technologies INC</h5>
+                <address>2729 158 St,	<br/> Unit# 107,<br/> Surrey, BC V3Z 1P4</address>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-address">
+                <img src="images/icons/india.png" alt="">
+                <h4>INDIA – New Delhi</h4>
+                <h5>Convalida Technologies Private Limited</h5>
+                <address>A73, <br/> Malviya Nagar, <br/>New Delhi 110017</address>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-address">
+                <img src="images/icons/india.png" alt="">
+                <h4>INDIA (IDC)</h4>
+                <h5>Lagozon Technologies Private Limited</h5>
+                <address>FB/B-1 Extension, <br/> Mohan Cooperative Industrial Estate, <br/>Main Mathura Road, Badarpur</address>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="footer-bottom">
+        <p>© Copyright 2012 - 2023. All Rights Reserved.</p>
+      </div>
     </div>
-    <div class="footer-bottom">
-      <p>© Copyright 2012 - 2023. All Rights Reserved.</p>
-    </div>
-  </div>
 </footer>
 <!-- end footer -->
 
 
+
+
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/custom.js"></script>
 </body>
 </html>
