@@ -150,6 +150,9 @@ header {
     padding-top: .5rem;
     z-index: 10;
 }
+.fixed-header {
+    background-color: #000;
+}
 .mynavbar {
     display: flex;
     justify-content: space-between;
